@@ -18,11 +18,11 @@ using namespace std;
 
 #define GL_PI	3.14159265359f
 
-HDC			hDC=NULL;		// Private GDI Device Context
-HGLRC		hRC=NULL;		// Permanent Rendering Context
-HWND		hWnd=NULL;		// Holds main window handle
-HWND		hWnd2=NULL;		// Holds menu window handle
-HINSTANCE	hInstance;		// Holds The Instance Of The Application
+HDC hDC=NULL;		// Private GDI Device Context
+HGLRC hRC=NULL;		// Permanent Rendering Context
+HWND hWnd=NULL;		// Holds main window handle
+HWND hWnd2=NULL;	// Holds menu window handle
+HINSTANCE hInstance;	// Holds The Instance Of The Application
 
 bool	keys[256];			// Array Used For The Keyboard Routine
 bool	active=TRUE;		// Window Active Flag Set To TRUE By Default
